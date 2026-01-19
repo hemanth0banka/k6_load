@@ -16,7 +16,7 @@ The goal of this project is to:
 
 ---
 
-2. ## 2. 🧩 Key Features
+## 2. 🧩 Key Features
 
 - Create and manage load test scripts
 - Configure load tests (virtual users, iterations)
