@@ -48,19 +48,19 @@ The backend exposes REST APIs for:
  │
  ├── cmd/
  │   └── server/
- │       └── main.go
+ │       └── main.go   # Application entry point
  │
  ├── internal/
- │   │── handlers/
- │   │── middleware/
- │   ├── router/
- │   ├── service/
- │   ├── engine/
- │   ├── generator/
- │   ├── repository/
- │   └── model/
+ │   │── handlers/     # HTTP request handlers
+ │   │── middleware/   # CORS
+ │   ├── router/       # Routes
+ │   ├── service/      # Business logic
+ │   ├── engine/       # Load execution engine
+ │   ├── generator/    # Script / execution generators
+ │   ├── repository/   # Data access layer
+ │   └── model/        # Domain models
  │
- ├── scripts/
+ ├── scripts/          # Stored load test scripts
  ├── go.mod
  └── go.sum
 ```
@@ -109,3 +109,4 @@ The backend exposes REST APIs for:
 ## 8. Conclusion 
 
 This backend is a custom load testing platform built using Go. It follows a layered architecture with clear separation of concerns, making the system modular, testable, and scalable.
+
