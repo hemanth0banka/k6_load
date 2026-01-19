@@ -5,7 +5,7 @@ This project demonstrates how a real load testing tool works internally, includi
 
 ---
 
-1. ## 📌 Project Objective
+## 1. 📌 Project Objective
 
 The goal of this project is to:
 
@@ -16,7 +16,7 @@ The goal of this project is to:
 
 ---
 
-2. ## 🧩 Key Features
+2. ## 2. 🧩 Key Features
 
 - Create and manage load test scripts
 - Configure load tests (virtual users, iterations)
@@ -28,7 +28,7 @@ The goal of this project is to:
 
 ---
 
-3. ## 🛠️ Tech Stack
+## 3. 🛠️ Tech Stack
 
 ### Backend
 
@@ -44,7 +44,7 @@ The goal of this project is to:
 - HTTP Client: Axios
 - Build Tool: Vite
 ---
-4. ### High-Level Architecture
+### 4. High-Level Architecture
 ```
 Frontend (React)
         ↓ HTTP (REST APIs)
@@ -56,7 +56,7 @@ Repositories (File / Memory Storage)
 ```
 ---
 
-5. ### Project Structure
+### 5. Project Structure
 ```
 k6_Load_Tester/
 │
@@ -89,7 +89,7 @@ k6_Load_Tester/
 ```
 ---
 
-6. ## Application Flow
+## 6. Application Flow
 
 - User creates a script from the frontend
 - Script is stored via backend repository
@@ -102,7 +102,7 @@ k6_Load_Tester/
 
 ---
 
-7. ## API Endpoints
+## 7. API Endpoints
 
 ### Script APIs
 ```
@@ -122,7 +122,9 @@ POST	  /tests/{id}/run	Run a specific test
 Method	Endpoint	Description
 GET	    /history	Get test execution history
 ```
-8. ## Design Principles Used
+---
+
+## 8. Design Principles Used
 
 - Separation of Concerns
 - Single Responsibility Principle
@@ -133,7 +135,7 @@ GET	    /history	Get test execution history
 
 ---
 
-9. ## How to Run the Project
+## 9. How to Run the Project
 
 ### Backend
 ```
@@ -147,7 +149,9 @@ cd frontend
 npm install
 npm run dev
 ```
-10. ### Conclusion
+---
+
+### 10. Conclusion
 This project demonstrates a real-world backend architecture and a custom load testing engine inspired by k6.
 While simplified, it shows strong understanding of:
 - Backend system design
