@@ -1,0 +1,14 @@
+{
+  "testId": "20260117131034",
+  "scriptId": "4d93d3e2-9da1-4126-a2dc-c2e4f0298fb6",
+  "totalRequests": 83,
+  "success": 83,
+  "failure": 0,
+  "avgLatencyMs": 1287,
+  "p90LatencyMs": 2037,
+  "p95LatencyMs": 2355,
+  "p99LatencyMs": 3983,
+  "rps": 7.181181166215516,
+  "iterations": 83,
+  "startedAt": "2026-01-17T13:10:23.2214741+05:30"
+}
