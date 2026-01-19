@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	fmt.Println("🚀 Starting K6 Load Testing Platform...")
+	fmt.Println(" Starting K6 Load Testing ...")
 
 	httpGen := generator.NewHttpGenerator()
 	k6JSGen := generator.NewK6JSGenerator()
@@ -32,6 +32,6 @@ func main() {
 		*k6JSGen,
 	)
 
-	fmt.Println("✅ Server started on http://localhost:8080")
+	fmt.Println("Running on http://localhost:8080")
 	http.ListenAndServe(":8080", middleware.CORSMiddleware(mux))
 }
