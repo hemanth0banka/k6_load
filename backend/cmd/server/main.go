@@ -32,6 +32,6 @@ func main() {
 		*k6JSGen,
 	)
 
-	fmt.Println("Running on http://localhost:8080")
+	fmt.Println("Listening on http://localhost:8080")
 	http.ListenAndServe(":8080", middleware.CORSMiddleware(mux))
 }
