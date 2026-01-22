@@ -44,7 +44,12 @@ export default function Navbar() {
       <div className="nav-actions">
         <button className="btn-primary">
           <Play size={16} />
-          Quick Test
+          <Link
+              key="/run"
+              to="/run"
+            >
+              <span>Quick Test</span>
+            </Link>
         </button>
       </div>
     </nav>

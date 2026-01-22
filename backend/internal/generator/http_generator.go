@@ -32,3 +32,4 @@ func (g *HttpGenerator) Generate(rawURL string) (*model.Script, error) {
 
 	return script, nil
 }
+
